@@ -31,7 +31,7 @@ Christian Ritter
 
 ### PREREQUISITES
 
-PowerShell 5.1 or later
+PowerShell 7.1 or later
 
 ## Invoke-ModuleExampleAnalyzer
 
