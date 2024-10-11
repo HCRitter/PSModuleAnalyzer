@@ -28,7 +28,7 @@
     .NOTES
         Get-Help, Get-Command
 #>
-function Invoke-ModuleExampleAnalyzer {
+function Invoke-ModuleExampleAnalyzer2 {
     param (
         [Parameter(Mandatory = $true)]
         [string] $ModuleName
@@ -47,7 +47,7 @@ function Invoke-ModuleExampleAnalyzer {
 
     # Collect function names and initialize the hashtable
     $FunctionAliases = @{}
-    $Functions = Get-Command -Module $TargetModule -commandtype Function
+    $Functions = Get-Command -Module $TargetModule -commandtype Function, Cmdlet
     foreach($Function in $Functions.Name){
         $FunctionAliases["$($Function)"] = @($Function)
     }

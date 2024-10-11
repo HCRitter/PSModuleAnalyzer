@@ -84,4 +84,4 @@ We welcome your feedback and contributions to improve ModuleAnalyzer. Feel free 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE)
