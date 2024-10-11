@@ -28,7 +28,7 @@
     .NOTES
         Get-Help, Get-Command
 #>
-function Invoke-ModuleExampleAnalyzer2 {
+function Invoke-ModuleExampleAnalyzer {
     param (
         [Parameter(Mandatory = $true)]
         [string] $ModuleName
